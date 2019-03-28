@@ -1,0 +1,74 @@
+.player1{
+margin-right:10%;
+margin-left:10%;
+text-align: center;
+}
+/* .player2{
+    margin-right:51%
+    
+} */
+.player2{
+    margin-right:10%;
+    margin-left:10%;
+    text-align: center;
+    }
+
+
+.option{
+    border:1px solid black;
+    height: 10%;
+    width: 40%;
+    margin: 5px;
+    padding: 5px;
+    margin:auto;
+
+}
+.option:hover{
+    background: lightgray;
+    
+
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.selection {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+	/* grid-gap: 30px; */
+    /* padding-right: 3%; */
+    text-align: center;
+}
+
+
+  .turn_update{
+    text-align: center;
+
+  }
+.player_select{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.page1{
+    background-image: url("https://ryanmarkel.files.wordpress.com/2010/07/rock_paper_scissor_holdm7mdetail.png");
+    background-size: cover;
+
+
+}
+.gamebackground{
+    background-image: url("http://www.snazzyspace.com/wallpapers/012c52_scissors-paper-rock.png");
+  
+}
+.body{
+    background-color: beige;
+    margin-right: 30%;
+    margin-left: 30%;
+}
